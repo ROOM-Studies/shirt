@@ -16,17 +16,16 @@ header {
 }
 
 a {
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #000;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
 }
 
-
 a:hover {
-    background-color: #000;
-    color: #fff;
+  background-color: #000;
+  color: #fff;
 }
 
 header nav {
@@ -76,21 +75,20 @@ header nav ul {
 }
 
 #container #branding button {
-    width: 274px;
-    height: 90px;
-    background-color: #FF0000;
-    text-align: center;
-    font-size: 24px;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
+  width: 274px;
+  height: 90px;
+  background-color: #ff0000;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
 }
 
-
 #container #branding button:hover {
-    background-color: #c30404; 
+  background-color: #c30404;
 }
 
 .shirts {
@@ -118,24 +116,24 @@ header nav ul {
   align-items: center;
 }
 
-#gallery .image-gallery:hover{
-    transform: scale(1.1);
-    cursor: pointer;
+#gallery .image-gallery:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 #gallery .image-gallery.selected {
-  border-bottom: 4px solid #FF0000;
+  border-bottom: 4px solid #ff0000;
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    padding-top: 70px;
-    padding-bottom: 73px;
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  padding-bottom: 73px;
 }
 
 footer nav ul {
-    list-style: none;
-    display: flex;
-    gap: 90px;
+  list-style: none;
+  display: flex;
+  gap: 90px;
 }
